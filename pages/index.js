@@ -13,16 +13,19 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>There is this new thing in your city.</h1>
-        <h3
+        <div className={styles.title}>
+          There is this new thing in your city.
+        </div>
+        <p
           style={{
             color: "black",
             opacity: "0.8",
             paddingTop: "10rem",
+            textAlign: "center",
           }}
         >
           Coming Soon.
-        </h3>
+        </p>
       </main>
       <script
         async
