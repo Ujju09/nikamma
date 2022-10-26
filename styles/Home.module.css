@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 .main {
@@ -10,7 +10,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
+
+
 
 .footer {
   display: flex;
@@ -43,6 +46,8 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+
+  color: #111;
 }
 
 .title,
